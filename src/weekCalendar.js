@@ -156,9 +156,9 @@ function FetchData(currentDate, pageNumber){
     useEffect(() => { 
         const weekStart = currentDate.clone().startOf('week');
         const weekEnd = currentDate.clone().endOf('week');
-        let morePage = false;
 
-        async function fetchAPI() {    
+        async function fetchAPI() {
+            let morePage = false;    
             const apiCall = await fetch(`https://back.staging.bsport.io/api/v1/offer/?page=${page}`, {headers: {
                 "Accept": "application/json"
             }});
