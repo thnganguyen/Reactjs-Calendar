@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.week-header {
+  cursor: pointer;
+  background: white;
+}
+
+.calendar .body .cell {
+  position: relative;
+  border-right: 1px solid lightgray;
+  overflow: hidden;
+  cursor: pointer;
+  background: white;
+  }
+
+.calendar .body .cell:hover {
+  background: whitesmoke;
+}
+.calendar .body .selected {
+  border-left: 10px solid transparent;
+  border-image: linear-gradient(45deg, #1affa0 0%,#cff153 40%);
+  border-image-slice: 1;
+}
+
+.calendar .body .column {
+  flex-grow: 0;
+  flex-basis: calc(100%/7);
+  width: calc(100%/7);
+}
