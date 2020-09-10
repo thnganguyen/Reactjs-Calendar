@@ -10,12 +10,16 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### Development
 
-`npm start`
+```
+npm start
+```
 
 Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
 
 ### Production
 
-`npm run build`
+```
+npm run build
+```
 
