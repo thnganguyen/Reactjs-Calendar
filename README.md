@@ -1,6 +1,8 @@
 # A calendar using REACTJS
 
-The project build a simple calendar shows the activities of a company in the current week. The data are fetched from a true [API](https://back.staging.bsport.io/api/v1/swagger/). By selecting a day on the calendar we can filter the activities in the day.
+The project build a simple calendar shows the offers of a company in the current week. The offers are fetched from a true [API](https://back.staging.bsport.io/api/v1/swagger/). By selecting a day on the calendar we can filter the offers in the day.
+
+The information of a coach are also fetched from the API for only the coach ID appearing in the offers during the week. The offers list displays the name of coach.
 
 <img src="./public/Calendar_Screenshot.png" alt="Calendar" title="A calendar example" width="410" height="250"/>
 
